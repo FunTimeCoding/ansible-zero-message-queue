@@ -1,1 +1,4 @@
 ---
+- homebrew:
+    name: zmq
+  when: ansible_system == 'Darwin'
